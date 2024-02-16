@@ -1,0 +1,113 @@
+body{
+    background-image: url(simon-hajducki-yGMw4KpX4CE-unsplash.jpg);
+   }
+   .container { 
+       height: 70%;
+       width: 85%;
+       display: flex; 
+       flex-direction: column; 
+       justify-content: center; 
+       align-items: center; 
+       box-shadow: 0px 2px 5px black;
+       padding: 50px;
+       margin: 60px;
+       border-radius: 100px;
+       cursor: pointer;
+       background-image: url(guillermo-alvarez-kF5nFbHBG5E-unsplash.jpg);
+      background-position: sticky;
+      background-size: cover;
+      /* transition: 0.5s ease-in;
+      filter:grayscale(100%); */
+   }
+   .container:hover{
+       box-shadow:(10px 7px 10px rgb(1, 1, 1));
+       -ms-zoom: 100px;
+       cursor: pointer;
+   }
+   
+   h1 { 
+       background: -webkit-linear-gradient(rgba(247, 145, 4, 0.906),rgb(255, 255, 255));
+       -webkit-background-clip: text;
+       -webkit-text-fill-color: transparent;
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 50px;
+       margin-right: 70px;
+       opacity: 70%;
+        transition: 0.5s ease-in;
+       text-shadow: 0px 0px 15px 0px rgb(87, 196, 232);
+   } 
+   h1:hover{
+       font-size: 53px;
+   
+   }
+   .digit { 
+       font-size: 150px; 
+       color: rgb(255, 255, 255); 
+       /* color: black; */
+       opacity: 70%;
+       transition: 0.3s ease-in;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+   } 
+   .digit:hover{
+       font-size: 153px;
+       opacity: 80%;
+   
+   }
+   
+   #Timer { 
+       font-size: 40px; 
+       color: rgb(255, 254, 254); 
+       /* color: black; */
+       opacity: 70%;
+   } 
+   
+   #buttons { 
+       margin: 40px; 
+   } 
+   
+   .btn { 
+       font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       width: 100px; 
+       padding: 10px 15px; 
+       margin: 20px 30px; 
+       border-top-right-radius: 10px; 
+       border-bottom-left-radius: 10px; 
+       border-bottom-right-radius: 4px; 
+       border-top-left-radius: 4px; 
+       cursor: pointer; 
+       font-size: 20px; 
+       transition: 0.5s; 
+       color: white; 
+       font-weight: 500; 
+       border: none;
+       
+      
+   } 
+   .btn:hover{
+       font-size: 22px; 
+   
+   }
+   
+   #start { 
+       background-color: rgb(33, 132, 33);
+       box-shadow: 0px 4px 10px rgb(3, 97, 27);
+       opacity: 60%;
+   
+   } 
+   
+   #stop { 
+       background-color: rgb(25, 25, 112);
+       box-shadow: 0px 4px 10px rgb(3, 3, 97);
+       opacity: 60%;
+   
+    
+   } 
+   
+   #reset { 
+       background-color:rgb(154, 19, 19); 
+       box-shadow: 0px 4px 10px rgb(97, 3, 8);
+       opacity: 60%;
+   
+   
+   }
+   
